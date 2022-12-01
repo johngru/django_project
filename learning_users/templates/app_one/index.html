@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+{% extends 'app_one/base.html' %}
+
+{% block body_block %}
+
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-normal">Welcome to InterWebZ</h1>
+      <p class="col-md-8 fs-4">A site dedicated to sharing content with you and your friends...</p>
+      <a class="btn btn-primary btn-lg" href="{% url 'app_one:register' %}" role="button">Get Started</a>
+    </div>
+  </div>
+
+{% endblock body_block %}
+
+
+
+
+
